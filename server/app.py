@@ -105,7 +105,7 @@ class RestaurantPizzas(Resource):
         
         except ValueError as e:
             return make_response(
-                {"errors": [str(e)]},
+                {"errors": ["validation errors"]},
                 400
             )
         except Exception as e:
