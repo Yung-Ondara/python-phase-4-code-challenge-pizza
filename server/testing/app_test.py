@@ -3,6 +3,7 @@ from app import app, db
 from faker import Faker
 
 
+
 class TestApp:
     '''Flask application in app.py'''
 
